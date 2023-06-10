@@ -437,7 +437,6 @@ footer p {
     font-size: 16px;
     line-height: 150%;
     text-align: center;
-    letter-spacing: 0.04em;
     color: var(--primary-brand-color);
 }
 
