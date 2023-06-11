@@ -283,7 +283,7 @@ nav {
     left: 0px;
     top: 1548px;
     display: flex;
-    background: #F4F4FD;
+    background-color: #F4F4FD;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
