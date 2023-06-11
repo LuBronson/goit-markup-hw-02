@@ -138,7 +138,7 @@ header {
     background: #2E2F42;
 }
 
-.title-block h1 {
+.title-text {
     font-style: normal;
     font-weight: 700;
     font-size: 56px;
@@ -152,8 +152,14 @@ header {
     margin-left: 472px;
 }
 
-.title-block button {
+.title-button {
     display: flex;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    cursor: pointer;
 
     gap: 10px;
     background-color: var(--primary-brand-color);
@@ -163,16 +169,15 @@ header {
     margin-top: 356px;
     font-family: 'Roboto';
     font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
     line-height: 150%;
-    color: #FFFFFF;
-    letter-spacing: 0.04em;
     padding: 16px 32px;
-
 }
 
-.title-block button:hover {
+.title-button:hover {
+    background-color: #404BBF;
+}
+
+.title-active:hover {
     background-color: #404BBF;
 }
 
@@ -190,7 +195,7 @@ header {
     top: 792px;
 }
 
-.section1 h1 {
+.section1-title {
     font-size: 20px;
     line-height: 150%;
     letter-spacing: 0.02em;
