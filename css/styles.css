@@ -206,6 +206,14 @@ nav {
     display: flex;
 }
 
+.section-about-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--navbar-color);
+}
+
 .section-about ul {
     gap: 24px;
     display: flex;
@@ -238,8 +246,9 @@ nav {
     width: 264px;
     height: 72px;
     font-size: 16px;
-    line-height: 150%;
+    line-height: 1.5;
     letter-spacing: 0.02em;
+    color: var(--navbar-contacts-color)
 }
 
 .section-img {
@@ -256,12 +265,12 @@ nav {
     font-weight: 700;
     font-size: 36px;
     text-align: center;
-    letter-spacing: 0.02em;
     text-transform: capitalize;
     flex: none;
     padding: 0px;
     color: var(--navbar-color);
     line-height: 1.11;
+    letter-spacing: 0.02em;
 }
 
 .section-img ul {
@@ -309,7 +318,7 @@ nav {
 }
 
 
-.section-team li {
+.card-team {
     text-align: center;
     background: #FFFFFF;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
@@ -330,7 +339,7 @@ nav {
     color: #2E2F42;
 }
 
-.section4-p {
+.section-team-text {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
