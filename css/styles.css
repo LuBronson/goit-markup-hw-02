@@ -97,18 +97,18 @@ header {
     gap: 40px;
 }
 
-.contacts-item {
+.link-contacts {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--navbar-contacts-color);
 }
 
-.contacts-item:hover {
+.link-contacts:hover {
     color: #404bbf;
 }
 
-.contacts-item:active {
+.link-contacts:active {
     color: #404bbf;
 }
 
