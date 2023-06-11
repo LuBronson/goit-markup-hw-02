@@ -30,6 +30,14 @@ ul {
     list-style-type: none;
 }
 
+link {
+    text-decoration: none;
+}
+
+.list {
+    list-style: none;
+}
+
 header {
     display: flex;
     position: absolute;
@@ -39,31 +47,26 @@ header {
     background: #FFFFFF;
 }
 
-.link {
+
+.logo {
     color: var(--primary-brand-color);
     font-family: "Raleway", sans-serif;
-    display: flex;
     text-decoration: none;
     text-transform: uppercase;
     align-items: center;
-    font-size: 18px;
     font-weight: 800;
     font-size: 18px;
     line-height: 117%;
-    letter-spacing: 0.03em
+    letter-spacing: 0.03em;
 }
 
-.list {
-    list-style: none;
+nav {
+    margin-top: 24px;
+    margin-left: 156px;
 }
 
 .logo-studio {
     color: var(--navbar-color);
-}
-
-header .link {
-    margin-top: 24px;
-    margin-left: 156px;
 }
 
 .link-nav {
@@ -73,6 +76,7 @@ header .link {
     letter-spacing: 0.02em;
     color: var(--navbar-color);
 }
+
 
 .link-nav:hover {
     color: #404bbf
