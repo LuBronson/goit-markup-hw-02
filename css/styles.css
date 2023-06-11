@@ -2,6 +2,7 @@
     --primary-brand-color: #4D5AE5;
     --navbar-color: #2E2F42;
     --navbar-contacts-color: #434455;
+    --footer-text-color: #F4F4FD;
 }
 
 body {
@@ -45,11 +46,6 @@ header {
     text-decoration: none;
     text-transform: uppercase;
     align-items: center;
-    position: absolute;
-    width: 115px;
-    height: 24px;
-    left: 156px;
-    top: 24px;
     font-size: 18px;
     font-weight: 800;
     font-size: 18px;
@@ -63,6 +59,11 @@ header {
 
 .logo-studio {
     color: var(--navbar-color);
+}
+
+header .link {
+    margin-top: 24px;
+    margin-left: 156px;
 }
 
 .link-nav {
@@ -89,10 +90,10 @@ header {
     font-style: normal;
     margin-top: 8px;
     margin-bottom: 8px;
-    margin-left: 940px;
+    margin-left: 669px;
 }
 
-.contacts ul {
+.contacts .list {
     display: flex;
     gap: 40px;
 }
@@ -211,7 +212,7 @@ header {
     color: var(--navbar-color);
 }
 
-.section2 p {
+.section2-text {
     display: flex;
     width: 264px;
     height: 72px;
@@ -228,18 +229,17 @@ header {
     top: 1016px;
 }
 
-.section3 h2 {
+.section3-title {
     display: flex;
     justify-content: center;
-    /* top: 1016px; */
     font-weight: 700;
     font-size: 36px;
-    line-height: 111%;
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     flex: none;
     padding: 0px;
+    color: var(--navbar-color);
 
 }
 
@@ -255,7 +255,7 @@ header {
     flex: none;
 }
 
-.section-team {
+.section4 {
     position: absolute;
     width: 1440px;
     height: 732px;
@@ -268,7 +268,7 @@ header {
     justify-content: center;
 }
 
-.section-team-title {
+.section4-title {
     margin: 0;
     padding-top: 120px;
     color: #2E2F42;
@@ -279,9 +279,10 @@ header {
     line-height: 111%;
     text-align: center;
     letter-spacing: 0.02em;
+    text-transform: capitalize
 }
 
-.section-team ul {
+.section4 .list {
     display: flex;
     flex-direction: row;
     gap: 24px;
@@ -292,7 +293,7 @@ header {
 }
 
 
-.section-team li {
+.section4 li {
     text-align: center;
     background: #FFFFFF;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
@@ -301,7 +302,7 @@ header {
 
 }
 
-.section-team-name {
+.section4-name {
     margin: 0;
     padding-top: 32px;
     font-style: normal;
@@ -313,15 +314,13 @@ header {
     color: #2E2F42;
 }
 
-.section3-title {
-    display: flex;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 24px;
-    text-align: center;
+.section4-p {
+    font-size: 16px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
 }
+
+
 
 .footer {
     position: absolute;
@@ -332,47 +331,34 @@ header {
     display: flex;
     flex-direction: column;
     background: #2E2F42;
-    width: 1440px;
-    height: 312px;
-    left: 0px;
-    top: 2208px;
     flex-grow: 0;
 }
 
-.logo-footer {
-    font-family: 'Raleway';
-    text-decoration: none;
-    text-transform: uppercase;
-    align-items: center;
-    color: var(--navbar-color);
-    width: 115px;
-    height: 24px;
-    font-size: 18px;
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 117%;
-    color: white;
+
+.footer .link {
     margin-top: 100px;
     margin-left: 156px;
 }
 
-.logo-footer .web {
-    color: var(--primary-brand-color);
-    font-weight: 800;
-    font-size: 18px;
+.logo-footer-studio {
+    color: #f4f4fd
 }
 
-footer p {
-    margin: 0;
+.footer-text {
     width: 264px;
-    padding-top: 16px;
     padding-left: 156px;
-    line-height: 150%;
+    padding-top: 16px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #F4F4FD;
     padding-bottom: 100px;
-
+    color: var(--footer-text-color)
 }
+
+
+
+
+
+
 
 
 /* portfolio */
