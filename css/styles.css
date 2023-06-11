@@ -198,6 +198,10 @@ nav {
     background-color: #404BBF;
 }
 
+.title-button:focus {
+    background-color: #404BBF;
+}
+
 .section2 {
     display: flex;
 }
@@ -257,7 +261,7 @@ nav {
     flex: none;
     padding: 0px;
     color: var(--navbar-color);
-
+    line-height: 1.11;
 }
 
 .section3 ul {
