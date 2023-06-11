@@ -10,17 +10,10 @@ body {
     font-family: "Roboto", sans-serif;
     background: #FFFFFF;
     min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    width: 1440px;
-    margin: auto;
     color: #434455
 }
 
-main {
-    flex-grow: 1;
-}
+main {}
 
 a {
     text-decoration: none;
@@ -30,7 +23,7 @@ ul {
     list-style-type: none;
 }
 
-link {
+.link {
     text-decoration: none;
 }
 
@@ -39,11 +32,6 @@ link {
 }
 
 header {
-    display: flex;
-    position: absolute;
-    width: 1440px;
-    height: 72px;
-    top: 0px;
     background: #FFFFFF;
 }
 
@@ -53,16 +41,10 @@ header {
     font-family: "Raleway", sans-serif;
     text-decoration: none;
     text-transform: uppercase;
-    align-items: center;
     font-weight: 800;
     font-size: 18px;
-    line-height: 117%;
+    line-height: 1.17;
     letter-spacing: 0.03em;
-}
-
-nav {
-    margin-top: 24px;
-    margin-left: 156px;
 }
 
 .logo-studio {
@@ -101,14 +83,6 @@ nav {
 
 .contacts {
     font-style: normal;
-    margin-top: 8px;
-    margin-bottom: 8px;
-    margin-left: 669px;
-}
-
-.contacts .list {
-    display: flex;
-    gap: 40px;
 }
 
 .link-contacts {
@@ -132,27 +106,10 @@ nav {
 
 .nav-block ul {
     list-style: none;
-    display: flex;
-    gap: 40px;
-    position: absolute;
-    width: 261px;
-    height: 24px;
-    left: 347px;
-    top: 24px;
-    padding: 0;
-    margin: 0;
 }
 
 
-
 .title-block {
-    display: flex;
-    justify-content: center;
-    position: absolute;
-    width: 1440px;
-    height: 600px;
-    left: 0px;
-    top: 72px;
     background: #2E2F42;
 }
 
@@ -160,34 +117,22 @@ nav {
     font-style: normal;
     font-weight: 700;
     font-size: 56px;
-    line-height: 107%;
+    line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
     color: #FFFFFF;
-    position: absolute;
-    margin-top: 188px;
-    margin-right: 472px;
-    margin-left: 472px;
 }
 
 .title-button {
-    display: flex;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
     letter-spacing: 0.04em;
     color: #FFFFFF;
     cursor: pointer;
-
-    gap: 10px;
     background-color: var(--primary-brand-color);
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
-    position: absolute;
-    margin-top: 356px;
     font-style: normal;
-    line-height: 150%;
-    padding: 16px 32px;
+    line-height: 1.5;
 }
 
 .title-button:hover {
@@ -202,10 +147,6 @@ nav {
     background-color: #404BBF;
 }
 
-.section-about {
-    display: flex;
-}
-
 .section-about-title {
     font-weight: 500;
     font-size: 20px;
@@ -214,23 +155,11 @@ nav {
     color: var(--navbar-color);
 }
 
-.section-about ul {
-    gap: 24px;
-    display: flex;
-    position: absolute;
-    width: 1128px;
-    height: 104px;
-    left: 156px;
-    top: 792px;
-}
 
 .section-about-title {
     font-size: 20px;
-    line-height: 150%;
+    line-height: 1.5;
     letter-spacing: 0.02em;
-    display: flex;
-    flex: none;
-    flex-grow: 0;
 }
 
 .section-about-item {
@@ -242,127 +171,63 @@ nav {
 }
 
 .section-about-text {
-    display: flex;
-    width: 264px;
-    height: 72px;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--navbar-contacts-color)
 }
 
-.section-img {
-    position: absolute;
-    width: 1128px;
-    height: 412px;
-    left: 156px;
-    top: 1016px;
-}
-
 .section-img-title {
-    display: flex;
     justify-content: center;
     font-weight: 700;
     font-size: 36px;
     text-align: center;
     text-transform: capitalize;
-    flex: none;
-    padding: 0px;
     color: var(--navbar-color);
     line-height: 1.11;
     letter-spacing: 0.02em;
 }
 
-.section-img ul {
-    display: flex;
-    flex: none;
-    justify-content: center;
-    gap: 24px;
-}
-
 .section-team {
-    position: absolute;
-    width: 1440px;
-    height: 732px;
-    left: 0px;
-    top: 1548px;
-    display: flex;
     background-color: #F4F4FD;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
 }
 
 .section-team-title {
-    margin: 0;
-    padding-top: 120px;
     color: #2E2F42;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
-    line-height: 111%;
+    line-height: 1.11;
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize
 }
 
-.section-team .list {
-    display: flex;
-    flex-direction: row;
-    gap: 24px;
-    margin-top: 0px;
-    padding-right: 156px;
-    padding-left: 156px;
-    padding-bottom: 120px;
-}
-
-
 .card-team {
     text-align: center;
     background: #FFFFFF;
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-        0px 1px 1px rgba(46, 47, 66, 0.16),
-        0px 2px 1px rgba(46, 47, 66, 0.08);
 
 }
 
-.section-team-name {
-    margin: 0;
-    padding-top: 32px;
+.card-team-name {
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
-    line-height: 120%;
+    line-height: 1.2;
     text-align: center;
     letter-spacing: 0.02em;
     color: #2E2F42;
 }
 
-.section-team-text {
+.card-team-text {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
 
-
-
 .footer {
-    position: absolute;
-    width: 1440px;
-    height: 312px;
-    left: 0px;
-    top: 2280px;
-    display: flex;
-    flex-direction: column;
     background: #2E2F42;
-    flex-grow: 0;
-}
-
-
-.footer .link {
-    margin-top: 100px;
-    margin-left: 156px;
 }
 
 .logo-footer-studio {
@@ -370,38 +235,13 @@ nav {
 }
 
 .footer-text {
-    width: 264px;
-    padding-left: 156px;
-    padding-top: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    padding-bottom: 100px;
     color: var(--footer-text-color)
 }
 
 
-
-
-
-
-
-
 /* portfolio */
-
-
-
-.button-list {
-    display: flex;
-    flex-direction: row;
-    margin: 0;
-    padding: 0;
-    padding-left: 427px;
-    padding-top: 96px;
-    gap: 24px;
-    width: 586px;
-    height: 48px;
-
-}
 
 .filter-button {
     font-family: "Roboto", sans-serif;
@@ -428,7 +268,7 @@ nav {
     color: #FFFFFF;
 }
 
-.row-title {
+.project-card-title {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -436,17 +276,9 @@ nav {
     color: #2e2f42;
 }
 
-.row-text {
+.project-card-text {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-}
-
-.row-list {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    width: calc((100% - 1128px)/3);
-    align-content: center;
 }
