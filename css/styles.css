@@ -202,11 +202,11 @@ nav {
     background-color: #404BBF;
 }
 
-.section2 {
+.section-about {
     display: flex;
 }
 
-.section2 ul {
+.section-about ul {
     gap: 24px;
     display: flex;
     position: absolute;
@@ -216,7 +216,7 @@ nav {
     top: 792px;
 }
 
-.section2-title {
+.section-about-title {
     font-size: 20px;
     line-height: 150%;
     letter-spacing: 0.02em;
@@ -225,7 +225,7 @@ nav {
     flex-grow: 0;
 }
 
-.section2-item {
+.section-about-item {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -233,7 +233,7 @@ nav {
     color: var(--navbar-color);
 }
 
-.section2-text {
+.section-about-text {
     display: flex;
     width: 264px;
     height: 72px;
@@ -242,7 +242,7 @@ nav {
     letter-spacing: 0.02em;
 }
 
-.section3 {
+.section-img {
     position: absolute;
     width: 1128px;
     height: 412px;
@@ -250,7 +250,7 @@ nav {
     top: 1016px;
 }
 
-.section3-title {
+.section-img-title {
     display: flex;
     justify-content: center;
     font-weight: 700;
@@ -264,19 +264,14 @@ nav {
     line-height: 1.11;
 }
 
-.section3 ul {
+.section-img ul {
     display: flex;
     flex: none;
     justify-content: center;
     gap: 24px;
 }
 
-.section3 img {
-    display: flex;
-    flex: none;
-}
-
-.section4 {
+.section-team {
     position: absolute;
     width: 1440px;
     height: 732px;
@@ -289,7 +284,7 @@ nav {
     justify-content: center;
 }
 
-.section4-title {
+.section-team-title {
     margin: 0;
     padding-top: 120px;
     color: #2E2F42;
@@ -303,7 +298,7 @@ nav {
     text-transform: capitalize
 }
 
-.section4 .list {
+.section-team .list {
     display: flex;
     flex-direction: row;
     gap: 24px;
@@ -314,7 +309,7 @@ nav {
 }
 
 
-.section4 li {
+.section-team li {
     text-align: center;
     background: #FFFFFF;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
@@ -323,7 +318,7 @@ nav {
 
 }
 
-.section4-name {
+.section-team-name {
     margin: 0;
     padding-top: 32px;
     font-style: normal;
